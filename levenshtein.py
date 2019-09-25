@@ -32,4 +32,4 @@ def levenshtein(seq1, seq2):
 if __name__ == '__main__':
     str1 = str(sys.argv[1])
     str2 = str(sys.argv[2])
-    print(levenshtein(str1,str2))
+    print('Levenshtein distance: ', levenshtein(str1,str2))
